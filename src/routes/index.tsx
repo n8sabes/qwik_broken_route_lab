@@ -13,11 +13,11 @@ export default component$(() => {
       </h1>
       Vite server proxies do not work in `dev` mode. They do work in `preview` mode.
       <h3>Links (won't link)</h3>
-      <Link href="/mock/foo/">
+      <Link href="/mock/foo">
         /mock/foo proxy
       </Link><br />
       <Link href="/mock/bar">
-        /mock/foo proxy
+        /mock/bar proxy
       </Link><br />
       <Link href="/mock">
         /mock proxy
