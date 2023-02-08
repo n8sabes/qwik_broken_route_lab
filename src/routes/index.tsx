@@ -12,10 +12,10 @@ export default component$(() => {
       <br />
       <br />
       <Link href="/resourceAbsolutePath" class="normal">Resource$ absolute path -- Works</Link><br />
-      <Link href="/resourceRelativePath" class="normal" style={{ background: "red" }}>Resource$ relative path -- Broken</Link><br />
-      <br />
-      <Link href="/proxyLinks" class="normal">Proxy Links (fixed)</Link><br />
-      {/* <button class="normal" onClick$={() => window.location.href = "/resourceRelativePath"}>Resource$ Relative Path Proxy -- Broken</button><br /> */}
+      <Link href="/resourceRelativePath" class="broken">Resource$ relative path -- Refresh Broken</Link><br />
+      <button class="broken" onClick$={() => window.location.href = "/resourceRelativePath"}>Resource$ relative path -- Immediate Broken</button><br />
+      {/* <br /> */}
+      {/* <Link href="/proxyLinks" class="normal">Proxy Links (fixed)</Link><br /> */}
     </div>
   );
 });

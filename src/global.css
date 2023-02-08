@@ -114,10 +114,38 @@ a.normal {
   text-align: center;
 }
 
+a.broken {
+  margin: 0 auto;
+  display: block;
+  background: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  width: fit-content;
+  text-align: center;
+}
+
 button.normal {
   margin: 0 auto;
   display: block;
   background: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  width: fit-content;
+  text-align: center;
+}
+
+button.broken {
+  margin: 0 auto;
+  display: block;
+  background: red;
   padding: 10px 20px;
   border-radius: 10px;
   border: 0;
