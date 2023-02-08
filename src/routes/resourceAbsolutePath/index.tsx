@@ -16,7 +16,7 @@ export default component$(() => {
         Qwik Vite Server Proxy Lab <span class="lightning">⚡️</span>
       </h1>
       <p>Fetch absolute path in <b>useResource$</b> works.</p>
-      <h2>Refresh in browser.<br/>resource$() WORKS!</h2><br/>
+      <h2>Refresh in browser.<br/>useResource$() WORKS!</h2><br/>
 
       <div>
         <Resource

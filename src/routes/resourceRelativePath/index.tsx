@@ -17,7 +17,7 @@ export default component$(() => {
         Qwik Vite Server Proxy Lab <span class="lightning">⚡️</span>
       </h1>
       <p>Fetch relative path in <b>useResource$</b> fails on nav or reload.</p>
-      <h2 style={{color: "red"}}>Refresh in browser.<br/>resource$() BROKEN!</h2><br/>
+      <h2 style={{color: "red"}}>Refresh in browser.<br/>useResource$() BROKEN!</h2><br/>
 
       <div>
         <Resource

@@ -11,9 +11,9 @@ export default component$(() => {
       </h1>
       <br />
       <br />
-      <Link href="/resourceAbsolutePath" class="normal">Resource$ absolute path -- Works</Link><br />
-      <Link href="/resourceRelativePath" class="broken">Resource$ relative path -- Refresh Broken</Link><br />
-      <button class="broken" onClick$={() => window.location.href = "/resourceRelativePath"}>Resource$ relative path -- Immediate Broken</button><br />
+      <Link href="/resourceAbsolutePath" class="normal">useResource$ absolute path -- Works</Link><br />
+      <Link href="/resourceRelativePath" class="broken">useResource$ relative path -- Refresh Broken</Link><br />
+      <button class="broken" onClick$={() => window.location.href = "/resourceRelativePath"}>useResource$ relative path -- Immediate Broken</button><br />
       {/* <br /> */}
       {/* <Link href="/proxyLinks" class="normal">Proxy Links (fixed)</Link><br /> */}
     </div>
