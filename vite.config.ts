@@ -21,7 +21,7 @@ export default defineConfig(() => {
           rewrite: (path) => path.replace(/^\/mock\/bar/, ""),
         },
         "/mock": {
-          target: "https://jsonplaceholder.typicode.com/todos/1",
+          target: "https://jsonplaceholder.typicode.com/todos",
           changeOrigin: true,
           secure: false,
           rewrite: (path) => path.replace(/^\/mock/, ""),

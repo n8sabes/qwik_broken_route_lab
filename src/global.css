@@ -39,7 +39,6 @@ h2 {
 
 section {
   padding: 20px;
-  border-bottom: 10px solid var(--qwik-dark-blue);
 }
 
 ul {
@@ -101,21 +100,32 @@ footer a:hover {
   text-decoration: underline;
 }
 
-a.mindblow {
+a.normal {
   margin: 0 auto;
   display: block;
-  background: var(--qwik-dark-purple);
+  background: gray;
   padding: 10px 20px;
   border-radius: 10px;
   border: 0;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.1em;
   width: fit-content;
-  border-bottom: 4px solid black;
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤯</text></svg>")
-      16 0,
-    auto; /*!emojicursor.app*/
+  text-align: center;
+}
+
+button.normal {
+  margin: 0 auto;
+  display: block;
+  background: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  width: fit-content;
+  text-align: center;
 }
 
 a.mindblow:hover {
